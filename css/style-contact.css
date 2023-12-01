@@ -1,0 +1,101 @@
+body {
+            line-height: 1.6;
+        }
+
+header {
+    background-color: #333;
+    color: white;
+	image-orientation: left;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+
+        #title {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #intro {
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        #intro img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #mission, #vision, #values {
+            background-color: #FFFFFF;
+            padding: 20px;
+            margin: 20px 0;
+			color: #000000;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+.app-carousel {
+    padding: 0 6%;
+}
+.app-carousel .center .single-shot {
+    opacity: 1;
+    transform: scale(1);
+}
+.app-carousel .single-shot {
+    opacity: 0.8;
+    transform: scale(0.8);
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid var(--color-primary) !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: var(--color-primary);
+    border: 0 !important;
+}
+.app-carousel img{
+	width: inherit !important;
+	margin: auto;
+}
+        #footer {
+            background-color: #181818;
+            padding: 20px;
+            text-align: center;
+			color: #FFFFFF;
+        }
+
+
